@@ -1,0 +1,27 @@
+{
+  "name": "folder-viewer",
+  "description": "A folder viewer for visualizing directory structures",
+  "version": "1.0.0",
+  "author": "kagitmiadam",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kagitmiadam/folder-viewer.git"
+  },
+  "main": "generate-index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "3d",
+    "folder",
+    "viewer",
+    "directory",
+    "visualization"
+  ],
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
